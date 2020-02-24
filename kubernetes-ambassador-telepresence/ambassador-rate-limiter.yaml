@@ -39,6 +39,7 @@ spec:
       labels:
         app: ratelimiter
     spec:
+      nodeName: ubt01
       containers:
       - name: ratelimiter
         image: danielbryantuk/ratelimiter:0.3

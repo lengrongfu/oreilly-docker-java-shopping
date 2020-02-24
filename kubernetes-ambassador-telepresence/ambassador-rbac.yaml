@@ -66,8 +66,9 @@ spec:
       annotations:
         sidecar.istio.io/inject: "false"
       labels:
-        service: ambassador
+        app: ambassador
     spec:
+      nodeName: ubt01
       serviceAccountName: ambassador
       containers:
       - name: ambassador

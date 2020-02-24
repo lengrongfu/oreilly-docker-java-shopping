@@ -31,6 +31,7 @@ spec:
       labels:
         app: shopfront
     spec:
+      nodeName: ubt01
       containers:
       - name: djshopfront
         image: danielbryantuk/djshopfront:1.0
